@@ -1,6 +1,6 @@
-#Python for Novice
+# Python for Novice
 
-##Introduction
+## Introduction
 
 > [Python](https://www.python.org/) is an easy to learn, powerful programming language. 
 > It has efficient high-level data structures and a simple but effective approach to 
@@ -10,7 +10,7 @@
 
 There are several Python tutorials available for beginners, therefore rather than creating a new tutorial we considered putting them together.
 
-###Useful resources:
+### Useful resources
 
 * Web links:
  * [Software Carpentry: Python lessons for novice](http://swcarpentry.github.io/python-novice-inflammation/)
@@ -37,9 +37,9 @@ There are several Python tutorials available for beginners, therefore rather tha
 * Video tutorials:
  * [YouTube DRAPS TV](https://www.youtube.com/channel/UCea5cMUa9xNU0kUtbRcTkqA)
  * [Learn Python in one video](https://www.youtube.com/watch?v=N4mEzFDjqtA)
- * Many more... (literally millions of [YouTube videos](youtube.com))
+ * Many more... (literally millions of [YouTube videos](https://www.youtube.com/results?search_query=Python))
 
-#Topics to be discussed
+# Topics to be discussed
 
 1. How To - 'Hello World'
 2. Literal Constants: integers, floats and strings
@@ -57,11 +57,12 @@ There are several Python tutorials available for beginners, therefore rather tha
 14. Display simple graphs
 15. Basic error and exceptions: try and except
 
-#Basic code editors: 
+# Text editors / IDEs (Integrated Development Environment)
 * [gedit](https://en.wikipedia.org/wiki/Gedit) (installed)
 * [PyCharm](https://www.jetbrains.com/pycharm/) (Alternative, not installed)
+* [GNU/Emacs](https://www.gnu.org/software/emacs/) with [elpy](https://github.com/jorgenschaefer/elpy)
 
-#Debug:
+# Debugging
 http://swcarpentry.github.io/python-novice-inflammation/09-debugging.html
 
 
