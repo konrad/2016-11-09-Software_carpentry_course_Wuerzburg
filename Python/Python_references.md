@@ -63,6 +63,5 @@ There are several Python tutorials available for beginners, therefore rather tha
 * [GNU/Emacs](https://www.gnu.org/software/emacs/) with [elpy](https://github.com/jorgenschaefer/elpy)
 
 # Debugging
-http://swcarpentry.github.io/python-novice-inflammation/09-debugging.html
-
+* https://swcarpentry.github.io/python-novice-inflammation/09-debugging/
 
