@@ -106,6 +106,7 @@ results/
 ```
 Check again with `git status`.
 Add `.gitignore` and commit your changes.
+
 ## Remote repositories
 To work with remote repositories, e.g. on GitHub important commands are
 ```{bash}
