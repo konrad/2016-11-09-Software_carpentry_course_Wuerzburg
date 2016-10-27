@@ -626,7 +626,7 @@ $ head -n 1000 origin_of_species.txt | grep species \
 
 # Repeating command using the `for` loop
 
-Assumin you want to generate a copy of each of your files ending with ´.txt´. A
+Assuming you want to generate a copy of each of your files ending with ´.txt´. A
 
 ```
 cp *txt copy_of_*txt
@@ -647,7 +647,7 @@ for FILE in three_lines.txt two_lines.txt
 The variable `FILE` (you can give it also any other name) can be used
 inside of the loop.
 
-If you git now Ctr-↑ you will get the line
+If you press now Ctr-↑ you will get the line
 
 ```
 for FILE in three_lines.txt two_lines.txt; do head -n 1 $FILE; done
@@ -681,7 +681,70 @@ for FILE in *txt
 
 # Shell scripting
 
+Open a new file in a text editor of you choice, call it
+`count_lines.sh` and add the following text:
 
+```
+echo "Number of lines in the given file":
+wc -l origin_of_species.txt
+```
+
+Save the file, make sure the file `origin_of_species.txt` is in the
+same folder and run it the script:
+
+```
+$ bash count_lines.sh
+```
+
+You should get someting like
+
+```
+Number of lines that contains species:
+15322 origin_of_species.txt
+```
+
+This a very first shell script. Now we want to make it more
+flexible. Instead of hard coding the input file for `wc -l` we want to
+be able to give this as argument to the shell script. For this we
+change the shell script to:
+
+```
+echo "Number of lines in the given file":
+wc -l $1
+```
+
+The `$1` is a varible that represents the first argument given to the
+shell scrip. Now you can call the script in the following way
+
+```
+$ bash count_lines.sh origin_of_species.txt
+```
+
+You should get the same results as before. If you also like to take
+the second argument use the variable `$2`. For using all arguments
+given to the shell script use the variable "$@". E.g change the shell
+script to:
+
+
+```
+echo "Number of lines in the given file(s)":
+wc -l $@
+```
+
+and run it with several input files:
+
+```
+bash count_lines.sh origin_of_species.txt genes.csv
+```
+
+You should get something like:
+
+```
+Number of lines that contains species:
+ 15322 origin_of_species.txt
+      5 genes.csv
+ 15327 total
+```       
 
 # Examples analysis
 
