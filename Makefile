@@ -1,3 +1,5 @@
+pdf: readme_pdf git_pdf	unix_shell_pdf python_pdfs
+
 readme_pdf:
 	pandoc \
 	  -o README.pdf \
