@@ -1,5 +1,6 @@
 # Git
 See also:
+
  - https://swcarpentry.github.io/git-novice
  - http://rogerdudler.github.io/git-guide/
 
@@ -14,6 +15,7 @@ List all configured values
 ```{bash}
 git config --list
 ```
+
 ## Creating a Repository
 First we create a new directory, then we initialize it as a repository
 ```{bash}
@@ -25,6 +27,7 @@ Verify that it is indeed a repository
 ```{bash}
 git status
 ```
+
 ## Tracking Changes
 Create a file called `mars.txt`
 ```{bash}
@@ -71,6 +74,7 @@ git commit -m "Add concerns about effects of Mars' moons on Wolfman"
 ```
 Repeat the above steps as often as you want.
 You can check your commits with `git log` at any time.
+
 ## Exploring History
 Introduce some changes with `nano mars.txt` and do not add or commit them.
 Explore your changes against the current and previous versions
@@ -93,6 +97,7 @@ git checkout HEAD mars.txt
 # or just
 git checkout -- mars.txt
 ```
+
 ## Ignoring things
 Create some files you don't want to track
 ```{bash}
