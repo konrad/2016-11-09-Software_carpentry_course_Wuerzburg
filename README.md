@@ -47,7 +47,7 @@ for novices to the Unix Shell, Python and git.
 
 #### 2.3.0 Installation of Jupyter notebook
 
-#### 2.3.1 Session 1 (Malvika):
+#### 2.3.1 Session 1 (Markus):
 
 - Print, literal constants
 - Variables
