@@ -545,7 +545,6 @@ Topics:
 * `sort`
 * `uniq`
 * `grep`
-* `cut`
 
 There are several tools that let you manipulate the content of a plain
 text file or return information about it. If you want for example some
