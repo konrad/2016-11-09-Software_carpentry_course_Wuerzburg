@@ -1,10 +1,10 @@
-# Course Material for the Software Carpentry workshop Würzburg 2016-10-26/2016-10-27
+# Course Material for the Software Carpentry workshop Würzburg 2016-11-09/2016-11-10
 
 ## 1 About
 
 This is the course material for the [Software
 Carpentry](http://software-carpentry.org/) workshop taking place in
-Würzburg at October 26th and 27th, 2016. The course is an introduction
+Würzburg at November 9th and 10th, 2016. The course is an introduction
 for novices to the Unix Shell, Python and git.
 
 ## 2 Schedule
@@ -25,7 +25,7 @@ for novices to the Unix Shell, Python and git.
 - Breaks
 - Material of the course
 - The etherpad
-    - [http://pad.software-carpentry.org/p/2016-10-26-Wuerzburg](http://pad.software-carpentry.org/p/2016-10-26-Wuerzburg)
+    - [http://pad.software-carpentry.org/p/2016-11-09-Wuerzburg](http://pad.software-carpentry.org/p/2016-11-09-Wuerzburg)
     - Short URL: [http://bit.ly/2emNADR](http://bit.ly/2emNADR)
     - Exercise - add your name to the list of participants
 - HackyHour and WUBSyB
@@ -86,7 +86,7 @@ topics like open source / open content licenses, open science practices,
 reproducible research.
 
 - Fill out the [post- workshop survey of
-  SWC](https://www.surveymonkey.com/r/swc_post_workshop_v1?workshop_id=2016-10-26-Wuerzburg)
+  SWC](https://www.surveymonkey.com/r/swc_post_workshop_v1?workshop_id=2016-11-09-Wuerzburg)
 - Fill out the feedback form of the GSLS
 - Discussion and feedback 
 
