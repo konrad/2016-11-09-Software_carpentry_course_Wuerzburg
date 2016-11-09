@@ -9,19 +9,17 @@ for novices to the Unix Shell, Python and git.
 
 ## 2 Schedule
 
-### 2.0 Check installation while people are arriving
-
 ### 2.1 Welcome and introduction [9:00 - 9:30]
 
 - Introduction of the instructors and helpers
 - Introduction of the participants
+- Name tags
 - Photos
 - Ice breaker - Sort people by the following values:
     - In which year of your PhD are you?
     - How strong are the computational requirement in your PhD
     - Considerung the course topic - how strong do you feel about knowing this already?
     - Group by research field
-- Name tags
 - Breaks
 - Material of the course
 - The etherpad
@@ -33,7 +31,6 @@ for novices to the Unix Shell, Python and git.
     - Access to (bioinformatical) tools that only have CLI
     - Automation
     - Reproducibility / Transparency
-- Who has still issue with installation?    
 
 ### 2.2 Unix Shell (Konrad) [9:30 - 12:00]
 
@@ -88,7 +85,7 @@ reproducible research.
 - Fill out the [post- workshop survey of
   SWC](https://www.surveymonkey.com/r/swc_post_workshop_v1?workshop_id=2016-11-09-Wuerzburg)
 - Fill out the feedback form of the GSLS
-- Discussion and feedback 
+- Discussion and feedback
 
 ## 3 Sources
 
