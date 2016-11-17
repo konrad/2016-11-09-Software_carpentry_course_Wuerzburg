@@ -29,6 +29,14 @@ unix_shell_pdf:
 	   -V geometry:"top=2cm, bottom=2.0cm, left=2.5cm, right=2.5cm" \
 	  Unix_Shell/Unix_Shell.md
 
+	pandoc \
+	  -o Unix_Shell_cheat_sheet.pdf \
+	   --latex-engine xelatex \
+	   --variable mainfont="DejaVu Sans" \
+	   --variable sansfont="DejaVu Sans" \
+	   -V geometry:"top=2cm, bottom=2.0cm, left=2.5cm, right=2.5cm" \
+	  Unix_Shell/Unix_Shell_cheat_sheet.md
+
 python_pdfs:
 	pandoc \
 	  -o Python.pdf \
